@@ -193,6 +193,12 @@ main{
 .sponsors-img img{
    width: 65px;
 }
+.footer{
+    background-color: #ecd8d8;
+    margin:15px;
+    padding: 30px;
+    text-align: center;
+}
 
 
 
@@ -212,7 +218,7 @@ main{
     header{
         padding: 20px;
     }
-    nav, .teams-container, .feature-section, .facts-card-container .sponsors-img{
+    nav, .teams-container, .feature-section, .facts-card-container, .sponsors-img, .footer{
         flex-direction: column;
     }
     .feature-img img{
@@ -232,6 +238,9 @@ main{
     }
     .facts-card-container{
         gap:20px;
+    }
+    .footer{
+         padding:10px;
     }
 }
 
