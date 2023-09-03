@@ -1,0 +1,60 @@
+/* work sans fon from google font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Poppins:wght@800&family=Work+Sans:wght@700;800&display=swap');
+/* shared style */
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+    color:
+}
+.header{
+    background-color: rgba(255, 143, 14, 0.13);
+    padding: 50px 240px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nav-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #131313;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+   
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #5c5555;
+
+}
+nav li a{
+    text-decoration: none;
+    color: #423a3a;
+}
+/* banner style */
+.banner-content{
+    max-width: 800;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #000;
+}
+.banner-description{
+    color: #494444;
+
+}
+.btn-pa
