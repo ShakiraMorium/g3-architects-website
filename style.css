@@ -7,7 +7,13 @@
     font-family: 'Work Sans', sans-serif;
 }
 .btn-primary{
-    color:
+    background-color: rgb(223, 113, 35);
+    border-radius: 8px;
+    padding: 20px 25px ;
+    color:aliceblue;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
 }
 .header{
     background-color: rgba(255, 143, 14, 0.13);
@@ -57,4 +63,28 @@ nav li a{
     color: #494444;
 
 }
-.btn-pa
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+/* responsive media quaries for mobile screen */
+@media screen and ( max-width: 576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column
+    }
+};
+/*tablet or medium device */
+@media screen and(min-width:576px;)and(max-width:960px){
+    header{
+        padding:50px
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+    
+}
+    
